@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/InstantApp.iml" filepath="$PROJECT_DIR$/InstantApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature-settings/feature-settings.iml" filepath="$PROJECT_DIR$/feature-settings/feature-settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature_login/feature_login.iml" filepath="$PROJECT_DIR$/feature_login/feature_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instantapp-app/instantapp-app.iml" filepath="$PROJECT_DIR$/instantapp-app/instantapp-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instantapp-base/instantapp-base.iml" filepath="$PROJECT_DIR$/instantapp-base/instantapp-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-instantapp/my-instantapp.iml" filepath="$PROJECT_DIR$/my-instantapp/my-instantapp.iml" />
+    </modules>
+  </component>
+</project>

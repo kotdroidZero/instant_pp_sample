@@ -1,0 +1,1 @@
+include ':instantapp-base', ':instantapp-app', ':my-instantapp', ':feature_login', ':feature-settings'
