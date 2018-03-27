@@ -14,7 +14,7 @@
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
         <activity android:name=".MainActivity">
-            <tools:validation testUrl="http://www.example.com/main" />
+            <tools:validation testUrl="https://aativa.com/main" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,8 +28,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="http"
-                    android:host="www.example.com"
+                    android:scheme="https"
+                    android:host="aativa.com"
                     android:path="/main" />
             </intent-filter>
         </activity>

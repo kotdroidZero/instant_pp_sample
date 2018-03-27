@@ -2,4 +2,6 @@ apply plugin: 'com.android.instantapp'
 
 dependencies {
     implementation project(':instantapp-base')
+    implementation project(':feature_login')
+    implementation project(':feature-settings')
 }

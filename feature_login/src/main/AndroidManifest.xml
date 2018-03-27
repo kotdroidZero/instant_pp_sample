@@ -14,25 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name">
-            <tools:validation testUrl="http://www.example.com/main_login" />
+            <tools:validation testUrl="https://aativa.com/main_login" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="http"
-                    android:host="www.example.com"
+                    android:scheme="https"
+                    android:host="aativa.com"
                     android:path="/main_login" />
             </intent-filter>
         </activity>
